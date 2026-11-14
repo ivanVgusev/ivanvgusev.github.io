@@ -34,7 +34,7 @@
   <p>
    В исследовании было использовано три набора текстов.
   </p>
-  <table>
+  <table class="blog_table">
    <thead>
     <tr>
      <th>
@@ -165,7 +165,7 @@
   <p>
    Balanced accuracy усредняет качество распознавания одноавторских пар и разноавторских, а ROC AUC показывает, насколько хорошо на разных порогах решения модель ставит одноавторские пары выше разноавторских.
   </p>
-  <table>
+  <table class="blog_table">
    <thead>
     <tr>
      <th>
@@ -325,7 +325,7 @@
    . Это второй лучший результат (где лучший == стиль автора однороден) из современных корпусов, если учитывать саму Донцову. Компактнее оказался только корпус Куликовой.
   </p>
   <p>
-   <img alt="Внутренняя однородность авторских корпусов" src="article_images/author_compactness.png"/>
+   <img class= "blog_img" alt="Внутренняя однородность авторских корпусов" src="article_images/author_compactness.png"/>
   </p>
   <p>
    <em>
@@ -404,7 +404,7 @@
   <p>
    Важный этап – проверка устойчивости результатов при разной длине анализируемого фрагмента книги. Всего я перебрал три варианта и для всех вариантов использовал набор из 1102 книг длиной не менее 10 000 слов и менял только размер фрагмента.
   </p>
-  <table>
+  <table class="blog_table">
    <thead>
     <tr>
      <th>
@@ -503,7 +503,7 @@
    </tbody>
   </table>
   <p>
-   <img alt="Устойчивость результатов при разной длине фрагмента" src="article_images/fragment_size_sensitivity.png"/>
+   <img class= "blog_img" alt="Устойчивость результатов при разной длине фрагмента" src="article_images/fragment_size_sensitivity.png"/>
   </p>
   <p>
    <em>
@@ -536,7 +536,7 @@
    .
   </p>
   <p>
-   <img alt="Изменение среднего стилевого профиля между соседними годами" src="article_images/style_change_by_year.png"/>
+   <img class= "blog_img" alt="Изменение среднего стилевого профиля между соседними годами" src="article_images/style_change_by_year.png"/>
   </p>
   <p>
    <em>
@@ -607,7 +607,7 @@ for k in range(2, 11):
    .
   </p>
   <p>
-   <img alt="Silhouette при разном числе кластеров" src="article_images/cluster_count.png"/>
+   <img class= "blog_img" alt="Silhouette при разном числе кластеров" src="article_images/cluster_count.png"/>
   </p>
   <p>
    <em>
@@ -656,7 +656,7 @@ for k in range(2, 11):
   <p>
    После ручной очистки я распределил 287 детективов по шести сериям.
   </p>
-  <table>
+  <table class="blog_table">
    <thead>
     <tr>
      <th>
@@ -782,7 +782,7 @@ for k in range(2, 11):
    </tbody>
   </table>
   <p>
-   <img alt="Одноавторская похожесть пар внутри серий" src="article_images/series_consistency.png"/>
+   <img class= "blog_img" alt="Одноавторская похожесть пар внутри серий" src="article_images/series_consistency.png"/>
   </p>
   <p>
    <em>
@@ -799,7 +799,7 @@ for k in range(2, 11):
   <p>
    Кластеры 0, 1, 2, 3 в таблице ниже – это те самые кластеры из параграфа «Четыре кластера, которые не означают четырёх авторов». Их номера не означают ранг, хронологический период или предполагаемого автора, а всего-навсего условность. Таблица показывает, сколько книг каждой серии попало в каждый из кластеров.
   </p>
-  <table>
+  <table class="blog_table">
    <thead>
     <tr>
      <th>
@@ -970,7 +970,7 @@ same_series = (
   <p>
    Затем я сравнил книги внутри трёх временных промежутков.
   </p>
-  <table>
+  <table class="blog_table">
    <thead>
     <tr>
      <th>

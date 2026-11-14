@@ -6,6 +6,12 @@ a {
   color: #30231B;
 }
 
+table, th, td {
+  border: 1px solid #30231B;
+  border-collapse: collapse;
+  padding-inline: 8px;
+}
+
 a:visited {
   color: none;
 }
@@ -45,4 +51,18 @@ a:visited {
 .back-to-main-page {
   grid-column: 1;
   justify-self: start;
+}
+
+.blog_img {
+  display: block;
+  margin: auto;
+  max-width: 80%;
+  max-height: 80%;
+  padding: 8px;
+}
+
+.blog_table {
+  text-align: center;
+  margin: auto;
+  border: 1px  #30231B;
 }
