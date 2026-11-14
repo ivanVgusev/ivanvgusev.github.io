@@ -1,6 +1,48 @@
-footer {
-  text-align: center;
-  position:fixed;
-  bottom:4px;
-  width:100%;
+body {
+color: #30231B;
+}
+
+a {
+  color: #30231B;
+}
+
+a:visited {
+  color: none;
+}
+
+.footer-element {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  background-color: #546845;
+  color:#FFFFFF;
+}
+
+.footer-element a {
+  color: #FFFFFF;
+}
+
+.footer-element a:visited {
+  color: none;
+}
+
+.footer-element a:active {
+  color: #30231B;
+}
+
+.personal-links-footer {
+  grid-column: 2;
+  justify-self: center;
+}
+
+.back-to-main-page {
+  grid-column: 1;
+  justify-self: start;
 }
