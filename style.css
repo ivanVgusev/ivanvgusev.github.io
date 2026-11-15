@@ -66,3 +66,11 @@ a:visited {
   margin: auto;
   border: 1px  #30231B;
 }
+
+#christmasTree {
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  color: #546845;
+}
